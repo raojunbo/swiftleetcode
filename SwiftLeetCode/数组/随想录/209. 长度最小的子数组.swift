@@ -5,7 +5,6 @@
 //  Created by junbo.rao on 2022/3/30.
 //
 // 这个题实际上是滑动窗口
-//
 import Foundation
 class Solution209 {
     func minSubArrayLen(_ target: Int, _ nums: [Int]) -> Int {

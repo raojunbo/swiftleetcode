@@ -4,9 +4,7 @@
 //
 //  Created by junbo.rao on 2022/3/30.
 //
-// 和为k的子数组
-// 求的是子数组，是数组。
-//
+// 采用的是前缀和
 
 import Foundation
 class Solution560 {

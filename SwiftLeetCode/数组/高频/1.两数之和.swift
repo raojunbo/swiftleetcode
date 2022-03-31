@@ -3,7 +3,8 @@
 //  SwiftLeetCode
 //
 //  Created by junbo.rao on 2022/3/30.
-// 用hash o(n)
+// 变换表达式
+// Hash减少一层循环
 import Foundation
 class Solution1 {
     func twoSum(_ nums: [Int], _ target: Int) -> [Int] {

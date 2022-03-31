@@ -16,6 +16,14 @@
 		AB1894BB27F4421400CD7049 /* 15.三数之和(有难度).swift in Sources */ = {isa = PBXBuildFile; fileRef = AB1894BA27F4421400CD7049 /* 15.三数之和(有难度).swift */; };
 		AB1894BD27F44A5400CD7049 /* 560. 和为k的子数组(有点难).swift in Sources */ = {isa = PBXBuildFile; fileRef = AB1894BC27F44A5400CD7049 /* 560. 和为k的子数组(有点难).swift */; };
 		AB1894BF27F464F800CD7049 /* 287 选找重复数.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB1894BE27F464F800CD7049 /* 287 选找重复数.swift */; };
+		AB1894C127F532C400CD7049 /* 数组总结.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB1894C027F532C400CD7049 /* 数组总结.swift */; };
+		AB1894C427F538D800CD7049 /* 203. 移除链表元素.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB1894C327F538D800CD7049 /* 203. 移除链表元素.swift */; };
+		AB1894C627F53EA900CD7049 /* 707. 设计链表.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB1894C527F53EA900CD7049 /* 707. 设计链表.swift */; };
+		AB1894C827F587CF00CD7049 /* 206.反转链表.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB1894C727F587CF00CD7049 /* 206.反转链表.swift */; };
+		AB1894CA27F58AF000CD7049 /* 24. 两两交换链表中的节点.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB1894C927F58AF000CD7049 /* 24. 两两交换链表中的节点.swift */; };
+		AB1894CC27F59B0C00CD7049 /* 19.删除链表的倒数第N个节点.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB1894CB27F59B0C00CD7049 /* 19.删除链表的倒数第N个节点.swift */; };
+		AB1894CE27F5AC0900CD7049 /* 160. 相交链表.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB1894CD27F5AC0900CD7049 /* 160. 相交链表.swift */; };
+		AB1894D027F5B70100CD7049 /* 142. 环形链表 II.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB1894CF27F5B70100CD7049 /* 142. 环形链表 II.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -41,6 +49,14 @@
 		AB1894BA27F4421400CD7049 /* 15.三数之和(有难度).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "15.三数之和(有难度).swift"; sourceTree = "<group>"; };
 		AB1894BC27F44A5400CD7049 /* 560. 和为k的子数组(有点难).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "560. 和为k的子数组(有点难).swift"; sourceTree = "<group>"; };
 		AB1894BE27F464F800CD7049 /* 287 选找重复数.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "287 选找重复数.swift"; sourceTree = "<group>"; };
+		AB1894C027F532C400CD7049 /* 数组总结.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "数组总结.swift"; sourceTree = "<group>"; };
+		AB1894C327F538D800CD7049 /* 203. 移除链表元素.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "203. 移除链表元素.swift"; sourceTree = "<group>"; };
+		AB1894C527F53EA900CD7049 /* 707. 设计链表.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "707. 设计链表.swift"; sourceTree = "<group>"; };
+		AB1894C727F587CF00CD7049 /* 206.反转链表.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "206.反转链表.swift"; sourceTree = "<group>"; };
+		AB1894C927F58AF000CD7049 /* 24. 两两交换链表中的节点.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "24. 两两交换链表中的节点.swift"; sourceTree = "<group>"; };
+		AB1894CB27F59B0C00CD7049 /* 19.删除链表的倒数第N个节点.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "19.删除链表的倒数第N个节点.swift"; sourceTree = "<group>"; };
+		AB1894CD27F5AC0900CD7049 /* 160. 相交链表.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "160. 相交链表.swift"; sourceTree = "<group>"; };
+		AB1894CF27F5B70100CD7049 /* 142. 环形链表 II.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "142. 环形链表 II.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +91,7 @@
 			children = (
 				AB1894A627F3EB1200CD7049 /* main.swift */,
 				AB1894AD27F3EB1C00CD7049 /* 数组 */,
+				AB1894C227F5388900CD7049 /* 链表 */,
 			);
 			path = SwiftLeetCode;
 			sourceTree = "<group>";
@@ -82,6 +99,7 @@
 		AB1894AD27F3EB1C00CD7049 /* 数组 */ = {
 			isa = PBXGroup;
 			children = (
+				AB1894C027F532C400CD7049 /* 数组总结.swift */,
 				AB1894B927F4396800CD7049 /* 随想录 */,
 				AB1894B627F438D800CD7049 /* 高频 */,
 			);
@@ -108,6 +126,20 @@
 				AB1894B427F4385600CD7049 /* 209. 长度最小的子数组.swift */,
 			);
 			path = "随想录";
+			sourceTree = "<group>";
+		};
+		AB1894C227F5388900CD7049 /* 链表 */ = {
+			isa = PBXGroup;
+			children = (
+				AB1894C327F538D800CD7049 /* 203. 移除链表元素.swift */,
+				AB1894C527F53EA900CD7049 /* 707. 设计链表.swift */,
+				AB1894C727F587CF00CD7049 /* 206.反转链表.swift */,
+				AB1894C927F58AF000CD7049 /* 24. 两两交换链表中的节点.swift */,
+				AB1894CB27F59B0C00CD7049 /* 19.删除链表的倒数第N个节点.swift */,
+				AB1894CD27F5AC0900CD7049 /* 160. 相交链表.swift */,
+				AB1894CF27F5B70100CD7049 /* 142. 环形链表 II.swift */,
+			);
+			path = "链表";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -171,12 +203,20 @@
 				AB1894B827F438F500CD7049 /* 1.两数之和.swift in Sources */,
 				AB1894A727F3EB1200CD7049 /* main.swift in Sources */,
 				AB1894B327F42E0E00CD7049 /* 977.有序数组的平方.swift in Sources */,
+				AB1894CE27F5AC0900CD7049 /* 160. 相交链表.swift in Sources */,
+				AB1894C627F53EA900CD7049 /* 707. 设计链表.swift in Sources */,
 				AB1894BB27F4421400CD7049 /* 15.三数之和(有难度).swift in Sources */,
 				AB1894AF27F3EB3700CD7049 /* 704. 二分查找.swift in Sources */,
 				AB1894B127F4090700CD7049 /* 27. 移除元素.swift in Sources */,
+				AB1894C827F587CF00CD7049 /* 206.反转链表.swift in Sources */,
 				AB1894B527F4385600CD7049 /* 209. 长度最小的子数组.swift in Sources */,
 				AB1894BF27F464F800CD7049 /* 287 选找重复数.swift in Sources */,
 				AB1894BD27F44A5400CD7049 /* 560. 和为k的子数组(有点难).swift in Sources */,
+				AB1894CA27F58AF000CD7049 /* 24. 两两交换链表中的节点.swift in Sources */,
+				AB1894C127F532C400CD7049 /* 数组总结.swift in Sources */,
+				AB1894D027F5B70100CD7049 /* 142. 环形链表 II.swift in Sources */,
+				AB1894CC27F59B0C00CD7049 /* 19.删除链表的倒数第N个节点.swift in Sources */,
+				AB1894C427F538D800CD7049 /* 203. 移除链表元素.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
