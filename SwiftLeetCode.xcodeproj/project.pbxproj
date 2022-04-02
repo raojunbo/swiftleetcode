@@ -24,6 +24,20 @@
 		AB1894CC27F59B0C00CD7049 /* 19.删除链表的倒数第N个节点.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB1894CB27F59B0C00CD7049 /* 19.删除链表的倒数第N个节点.swift */; };
 		AB1894CE27F5AC0900CD7049 /* 160. 相交链表.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB1894CD27F5AC0900CD7049 /* 160. 相交链表.swift */; };
 		AB1894D027F5B70100CD7049 /* 142. 环形链表 II.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB1894CF27F5B70100CD7049 /* 142. 环形链表 II.swift */; };
+		AB1894D327F7056500CD7049 /* 242.有效的字母异位词.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB1894D227F7056500CD7049 /* 242.有效的字母异位词.swift */; };
+		AB1894D527F7EC3600CD7049 /* 349. 两个数组的交集.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB1894D427F7EC3600CD7049 /* 349. 两个数组的交集.swift */; };
+		AB1894D727F7F32A00CD7049 /* 202. 快乐数.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB1894D627F7F32A00CD7049 /* 202. 快乐数.swift */; };
+		AB1894DA27F7FCA100CD7049 /* 344.反转字符串.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB1894D927F7FCA100CD7049 /* 344.反转字符串.swift */; };
+		AB1894DC27F7FE5D00CD7049 /* 541. 反转字符串II.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB1894DB27F7FE5D00CD7049 /* 541. 反转字符串II.swift */; };
+		AB1894DE27F805E900CD7049 /* Offer 05. 替换空格.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB1894DD27F805E900CD7049 /* Offer 05. 替换空格.swift */; };
+		AB1894E127F81EAF00CD7049 /* 151. 颠倒字符串中的单词.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB1894E027F81EAF00CD7049 /* 151. 颠倒字符串中的单词.swift */; };
+		AB1894E327F8331800CD7049 /* Offer58-II.左旋转字符串.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB1894E227F8331800CD7049 /* Offer58-II.左旋转字符串.swift */; };
+		AB1894E527F84DA300CD7049 /* 28. 实现 strStr()(有点难KMP).swift in Sources */ = {isa = PBXBuildFile; fileRef = AB1894E427F84DA300CD7049 /* 28. 实现 strStr()(有点难KMP).swift */; };
+		AB1894E727F851D700CD7049 /* 459.重复的子字符串(有点难KMP).swift in Sources */ = {isa = PBXBuildFile; fileRef = AB1894E627F851D700CD7049 /* 459.重复的子字符串(有点难KMP).swift */; };
+		AB1894EA27F8541300CD7049 /* 双指针法.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB1894E927F8541300CD7049 /* 双指针法.swift */; };
+		AB1894EC27F854C400CD7049 /* 第18题. 四数之和.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB1894EB27F854C400CD7049 /* 第18题. 四数之和.swift */; };
+		AB1894EF27F8564100CD7049 /* 232.用栈实现队列.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB1894EE27F8564100CD7049 /* 232.用栈实现队列.swift */; };
+		AB1894F127F85CC100CD7049 /* 225. 用队列实现栈.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB1894F027F85CC100CD7049 /* 225. 用队列实现栈.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -57,6 +71,20 @@
 		AB1894CB27F59B0C00CD7049 /* 19.删除链表的倒数第N个节点.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "19.删除链表的倒数第N个节点.swift"; sourceTree = "<group>"; };
 		AB1894CD27F5AC0900CD7049 /* 160. 相交链表.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "160. 相交链表.swift"; sourceTree = "<group>"; };
 		AB1894CF27F5B70100CD7049 /* 142. 环形链表 II.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "142. 环形链表 II.swift"; sourceTree = "<group>"; };
+		AB1894D227F7056500CD7049 /* 242.有效的字母异位词.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "242.有效的字母异位词.swift"; sourceTree = "<group>"; };
+		AB1894D427F7EC3600CD7049 /* 349. 两个数组的交集.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "349. 两个数组的交集.swift"; sourceTree = "<group>"; };
+		AB1894D627F7F32A00CD7049 /* 202. 快乐数.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "202. 快乐数.swift"; sourceTree = "<group>"; };
+		AB1894D927F7FCA100CD7049 /* 344.反转字符串.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "344.反转字符串.swift"; sourceTree = "<group>"; };
+		AB1894DB27F7FE5D00CD7049 /* 541. 反转字符串II.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "541. 反转字符串II.swift"; sourceTree = "<group>"; };
+		AB1894DD27F805E900CD7049 /* Offer 05. 替换空格.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Offer 05. 替换空格.swift"; sourceTree = "<group>"; };
+		AB1894E027F81EAF00CD7049 /* 151. 颠倒字符串中的单词.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "151. 颠倒字符串中的单词.swift"; sourceTree = "<group>"; };
+		AB1894E227F8331800CD7049 /* Offer58-II.左旋转字符串.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Offer58-II.左旋转字符串.swift"; sourceTree = "<group>"; };
+		AB1894E427F84DA300CD7049 /* 28. 实现 strStr()(有点难KMP).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "28. 实现 strStr()(有点难KMP).swift"; sourceTree = "<group>"; };
+		AB1894E627F851D700CD7049 /* 459.重复的子字符串(有点难KMP).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "459.重复的子字符串(有点难KMP).swift"; sourceTree = "<group>"; };
+		AB1894E927F8541300CD7049 /* 双指针法.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "双指针法.swift"; sourceTree = "<group>"; };
+		AB1894EB27F854C400CD7049 /* 第18题. 四数之和.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "第18题. 四数之和.swift"; sourceTree = "<group>"; };
+		AB1894EE27F8564100CD7049 /* 232.用栈实现队列.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "232.用栈实现队列.swift"; sourceTree = "<group>"; };
+		AB1894F027F85CC100CD7049 /* 225. 用队列实现栈.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "225. 用队列实现栈.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +118,10 @@
 			isa = PBXGroup;
 			children = (
 				AB1894A627F3EB1200CD7049 /* main.swift */,
+				AB1894ED27F8562900CD7049 /* 栈与队列 */,
+				AB1894E827F853FC00CD7049 /* 双指针法 */,
+				AB1894D827F7FC9100CD7049 /* 字符串 */,
+				AB1894D127F7053B00CD7049 /* 哈希表 */,
 				AB1894AD27F3EB1C00CD7049 /* 数组 */,
 				AB1894C227F5388900CD7049 /* 链表 */,
 			);
@@ -109,8 +141,6 @@
 		AB1894B627F438D800CD7049 /* 高频 */ = {
 			isa = PBXGroup;
 			children = (
-				AB1894B727F438F500CD7049 /* 1.两数之和.swift */,
-				AB1894BA27F4421400CD7049 /* 15.三数之和(有难度).swift */,
 				AB1894BE27F464F800CD7049 /* 287 选找重复数.swift */,
 				AB1894BC27F44A5400CD7049 /* 560. 和为k的子数组(有点难).swift */,
 			);
@@ -140,6 +170,58 @@
 				AB1894CF27F5B70100CD7049 /* 142. 环形链表 II.swift */,
 			);
 			path = "链表";
+			sourceTree = "<group>";
+		};
+		AB1894D127F7053B00CD7049 /* 哈希表 */ = {
+			isa = PBXGroup;
+			children = (
+				AB1894D227F7056500CD7049 /* 242.有效的字母异位词.swift */,
+				AB1894BA27F4421400CD7049 /* 15.三数之和(有难度).swift */,
+				AB1894D427F7EC3600CD7049 /* 349. 两个数组的交集.swift */,
+				AB1894D627F7F32A00CD7049 /* 202. 快乐数.swift */,
+				AB1894EB27F854C400CD7049 /* 第18题. 四数之和.swift */,
+				AB1894B727F438F500CD7049 /* 1.两数之和.swift */,
+			);
+			path = "哈希表";
+			sourceTree = "<group>";
+		};
+		AB1894D827F7FC9100CD7049 /* 字符串 */ = {
+			isa = PBXGroup;
+			children = (
+				AB1894DF27F8064900CD7049 /* 随想录 */,
+			);
+			path = "字符串";
+			sourceTree = "<group>";
+		};
+		AB1894DF27F8064900CD7049 /* 随想录 */ = {
+			isa = PBXGroup;
+			children = (
+				AB1894D927F7FCA100CD7049 /* 344.反转字符串.swift */,
+				AB1894DB27F7FE5D00CD7049 /* 541. 反转字符串II.swift */,
+				AB1894DD27F805E900CD7049 /* Offer 05. 替换空格.swift */,
+				AB1894E027F81EAF00CD7049 /* 151. 颠倒字符串中的单词.swift */,
+				AB1894E227F8331800CD7049 /* Offer58-II.左旋转字符串.swift */,
+				AB1894E427F84DA300CD7049 /* 28. 实现 strStr()(有点难KMP).swift */,
+				AB1894E627F851D700CD7049 /* 459.重复的子字符串(有点难KMP).swift */,
+			);
+			path = "随想录";
+			sourceTree = "<group>";
+		};
+		AB1894E827F853FC00CD7049 /* 双指针法 */ = {
+			isa = PBXGroup;
+			children = (
+				AB1894E927F8541300CD7049 /* 双指针法.swift */,
+			);
+			path = "双指针法";
+			sourceTree = "<group>";
+		};
+		AB1894ED27F8562900CD7049 /* 栈与队列 */ = {
+			isa = PBXGroup;
+			children = (
+				AB1894EE27F8564100CD7049 /* 232.用栈实现队列.swift */,
+				AB1894F027F85CC100CD7049 /* 225. 用队列实现栈.swift */,
+			);
+			path = "栈与队列";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -200,23 +282,37 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AB1894EF27F8564100CD7049 /* 232.用栈实现队列.swift in Sources */,
+				AB1894E327F8331800CD7049 /* Offer58-II.左旋转字符串.swift in Sources */,
+				AB1894DA27F7FCA100CD7049 /* 344.反转字符串.swift in Sources */,
 				AB1894B827F438F500CD7049 /* 1.两数之和.swift in Sources */,
 				AB1894A727F3EB1200CD7049 /* main.swift in Sources */,
 				AB1894B327F42E0E00CD7049 /* 977.有序数组的平方.swift in Sources */,
 				AB1894CE27F5AC0900CD7049 /* 160. 相交链表.swift in Sources */,
 				AB1894C627F53EA900CD7049 /* 707. 设计链表.swift in Sources */,
+				AB1894E727F851D700CD7049 /* 459.重复的子字符串(有点难KMP).swift in Sources */,
 				AB1894BB27F4421400CD7049 /* 15.三数之和(有难度).swift in Sources */,
 				AB1894AF27F3EB3700CD7049 /* 704. 二分查找.swift in Sources */,
+				AB1894E127F81EAF00CD7049 /* 151. 颠倒字符串中的单词.swift in Sources */,
+				AB1894DE27F805E900CD7049 /* Offer 05. 替换空格.swift in Sources */,
 				AB1894B127F4090700CD7049 /* 27. 移除元素.swift in Sources */,
+				AB1894EA27F8541300CD7049 /* 双指针法.swift in Sources */,
 				AB1894C827F587CF00CD7049 /* 206.反转链表.swift in Sources */,
 				AB1894B527F4385600CD7049 /* 209. 长度最小的子数组.swift in Sources */,
+				AB1894D327F7056500CD7049 /* 242.有效的字母异位词.swift in Sources */,
 				AB1894BF27F464F800CD7049 /* 287 选找重复数.swift in Sources */,
 				AB1894BD27F44A5400CD7049 /* 560. 和为k的子数组(有点难).swift in Sources */,
+				AB1894EC27F854C400CD7049 /* 第18题. 四数之和.swift in Sources */,
 				AB1894CA27F58AF000CD7049 /* 24. 两两交换链表中的节点.swift in Sources */,
+				AB1894DC27F7FE5D00CD7049 /* 541. 反转字符串II.swift in Sources */,
 				AB1894C127F532C400CD7049 /* 数组总结.swift in Sources */,
+				AB1894D527F7EC3600CD7049 /* 349. 两个数组的交集.swift in Sources */,
 				AB1894D027F5B70100CD7049 /* 142. 环形链表 II.swift in Sources */,
 				AB1894CC27F59B0C00CD7049 /* 19.删除链表的倒数第N个节点.swift in Sources */,
+				AB1894D727F7F32A00CD7049 /* 202. 快乐数.swift in Sources */,
+				AB1894F127F85CC100CD7049 /* 225. 用队列实现栈.swift in Sources */,
 				AB1894C427F538D800CD7049 /* 203. 移除链表元素.swift in Sources */,
+				AB1894E527F84DA300CD7049 /* 28. 实现 strStr()(有点难KMP).swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

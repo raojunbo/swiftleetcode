@@ -22,7 +22,15 @@ class Solution206 {
     }
     // 双指针
     func reverseList2(_ head: ListNode?) -> ListNode? {
-       return nil
+        var pre:ListNode? = nil
+        var cur = head
+        while cur != nil {
+            let next = cur?.next
+            cur?.next = pre
+            pre = cur
+            cur = next
+        }
+       return pre
     }
     class func test() {
         let node1 = ListNode(1)
@@ -36,7 +44,7 @@ class Solution206 {
         node4.next = node5
         
         let solution = Solution206()
-        let result = solution.reverseList(node1)
+        let result = solution.reverseList2(node1)
         print(result)
     }
 }

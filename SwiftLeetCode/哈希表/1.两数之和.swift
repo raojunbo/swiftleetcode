@@ -8,13 +8,13 @@
 import Foundation
 class Solution1 {
     func twoSum(_ nums: [Int], _ target: Int) -> [Int] {
-        var dict: [Int: Int] = [:] // value: index
+        var map: [Int: Int] = [:] // value: index
         for i in 0..<nums.count {
             let value = target - nums[i]
-            if let valueIndex = dict[value] {
+            if let valueIndex = map[value] {
                 return [valueIndex,i]
             } else {
-                dict[nums[i]] = i
+                map[nums[i]] = i
             }
         }
         return []
