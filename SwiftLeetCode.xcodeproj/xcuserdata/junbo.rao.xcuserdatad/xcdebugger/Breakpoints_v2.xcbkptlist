@@ -244,5 +244,69 @@
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "578A0371-5CD1-4DFB-83D5-18041D83E0D2"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SwiftLeetCode/&#x6808;&#x4e0e;&#x961f;&#x5217;/225. &#x7528;&#x961f;&#x5217;&#x5b9e;&#x73b0;&#x6808;.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "46"
+            endingLineNumber = "46"
+            landmarkName = "test()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B6C3720C-59D2-4BEC-BCF8-821E8474C711"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SwiftLeetCode/&#x6808;&#x4e0e;&#x961f;&#x5217;/225. &#x7528;&#x961f;&#x5217;&#x5b9e;&#x73b0;&#x6808;.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "41"
+            endingLineNumber = "41"
+            landmarkName = "test()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "359FCB21-2F46-4226-9087-E239A5B5D316"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SwiftLeetCode/&#x6808;&#x4e0e;&#x961f;&#x5217;/&#x968f;&#x60f3;&#x5f55;/150. &#x9006;&#x6ce2;&#x5170;&#x8868;&#x8fbe;&#x5f0f;&#x6c42;&#x503c;.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "14"
+            endingLineNumber = "14"
+            landmarkName = "evalRPN(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E296BB68-A598-4072-972B-C2355FB29803"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SwiftLeetCode/&#x6808;&#x4e0e;&#x961f;&#x5217;/&#x968f;&#x60f3;&#x5f55;/239. &#x6ed1;&#x52a8;&#x7a97;&#x53e3;&#x6700;&#x5927;&#x503c;.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "25"
+            endingLineNumber = "25"
+            landmarkName = "maxSlidingWindow(_:_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
    </Breakpoints>
 </Bucket>

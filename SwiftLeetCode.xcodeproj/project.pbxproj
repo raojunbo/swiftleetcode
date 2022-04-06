@@ -38,6 +38,10 @@
 		AB1894EC27F854C400CD7049 /* 第18题. 四数之和.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB1894EB27F854C400CD7049 /* 第18题. 四数之和.swift */; };
 		AB1894EF27F8564100CD7049 /* 232.用栈实现队列.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB1894EE27F8564100CD7049 /* 232.用栈实现队列.swift */; };
 		AB1894F127F85CC100CD7049 /* 225. 用队列实现栈.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB1894F027F85CC100CD7049 /* 225. 用队列实现栈.swift */; };
+		AB59323A27FD735F0009FFC6 /* 20. 有效的括号.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB59323927FD735F0009FFC6 /* 20. 有效的括号.swift */; };
+		AB59323D27FD7A000009FFC6 /* 1047. 删除字符串中的所有相邻重复项.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB59323C27FD7A000009FFC6 /* 1047. 删除字符串中的所有相邻重复项.swift */; };
+		AB59323F27FD7D490009FFC6 /* 150. 逆波兰表达式求值.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB59323E27FD7D490009FFC6 /* 150. 逆波兰表达式求值.swift */; };
+		AB59324127FD82010009FFC6 /* 239. 滑动窗口最大值(有点难).swift in Sources */ = {isa = PBXBuildFile; fileRef = AB59324027FD82010009FFC6 /* 239. 滑动窗口最大值(有点难).swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -85,6 +89,10 @@
 		AB1894EB27F854C400CD7049 /* 第18题. 四数之和.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "第18题. 四数之和.swift"; sourceTree = "<group>"; };
 		AB1894EE27F8564100CD7049 /* 232.用栈实现队列.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "232.用栈实现队列.swift"; sourceTree = "<group>"; };
 		AB1894F027F85CC100CD7049 /* 225. 用队列实现栈.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "225. 用队列实现栈.swift"; sourceTree = "<group>"; };
+		AB59323927FD735F0009FFC6 /* 20. 有效的括号.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "20. 有效的括号.swift"; sourceTree = "<group>"; };
+		AB59323C27FD7A000009FFC6 /* 1047. 删除字符串中的所有相邻重复项.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1047. 删除字符串中的所有相邻重复项.swift"; sourceTree = "<group>"; };
+		AB59323E27FD7D490009FFC6 /* 150. 逆波兰表达式求值.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "150. 逆波兰表达式求值.swift"; sourceTree = "<group>"; };
+		AB59324027FD82010009FFC6 /* 239. 滑动窗口最大值(有点难).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "239. 滑动窗口最大值(有点难).swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -218,10 +226,22 @@
 		AB1894ED27F8562900CD7049 /* 栈与队列 */ = {
 			isa = PBXGroup;
 			children = (
-				AB1894EE27F8564100CD7049 /* 232.用栈实现队列.swift */,
-				AB1894F027F85CC100CD7049 /* 225. 用队列实现栈.swift */,
+				AB59323B27FD79D60009FFC6 /* 随想录 */,
 			);
 			path = "栈与队列";
+			sourceTree = "<group>";
+		};
+		AB59323B27FD79D60009FFC6 /* 随想录 */ = {
+			isa = PBXGroup;
+			children = (
+				AB1894EE27F8564100CD7049 /* 232.用栈实现队列.swift */,
+				AB1894F027F85CC100CD7049 /* 225. 用队列实现栈.swift */,
+				AB59323C27FD7A000009FFC6 /* 1047. 删除字符串中的所有相邻重复项.swift */,
+				AB59323927FD735F0009FFC6 /* 20. 有效的括号.swift */,
+				AB59323E27FD7D490009FFC6 /* 150. 逆波兰表达式求值.swift */,
+				AB59324027FD82010009FFC6 /* 239. 滑动窗口最大值(有点难).swift */,
+			);
+			path = "随想录";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -291,6 +311,7 @@
 				AB1894CE27F5AC0900CD7049 /* 160. 相交链表.swift in Sources */,
 				AB1894C627F53EA900CD7049 /* 707. 设计链表.swift in Sources */,
 				AB1894E727F851D700CD7049 /* 459.重复的子字符串(有点难KMP).swift in Sources */,
+				AB59324127FD82010009FFC6 /* 239. 滑动窗口最大值(有点难).swift in Sources */,
 				AB1894BB27F4421400CD7049 /* 15.三数之和(有难度).swift in Sources */,
 				AB1894AF27F3EB3700CD7049 /* 704. 二分查找.swift in Sources */,
 				AB1894E127F81EAF00CD7049 /* 151. 颠倒字符串中的单词.swift in Sources */,
@@ -300,11 +321,14 @@
 				AB1894C827F587CF00CD7049 /* 206.反转链表.swift in Sources */,
 				AB1894B527F4385600CD7049 /* 209. 长度最小的子数组.swift in Sources */,
 				AB1894D327F7056500CD7049 /* 242.有效的字母异位词.swift in Sources */,
+				AB59323A27FD735F0009FFC6 /* 20. 有效的括号.swift in Sources */,
+				AB59323D27FD7A000009FFC6 /* 1047. 删除字符串中的所有相邻重复项.swift in Sources */,
 				AB1894BF27F464F800CD7049 /* 287 选找重复数.swift in Sources */,
 				AB1894BD27F44A5400CD7049 /* 560. 和为k的子数组(有点难).swift in Sources */,
 				AB1894EC27F854C400CD7049 /* 第18题. 四数之和.swift in Sources */,
 				AB1894CA27F58AF000CD7049 /* 24. 两两交换链表中的节点.swift in Sources */,
 				AB1894DC27F7FE5D00CD7049 /* 541. 反转字符串II.swift in Sources */,
+				AB59323F27FD7D490009FFC6 /* 150. 逆波兰表达式求值.swift in Sources */,
 				AB1894C127F532C400CD7049 /* 数组总结.swift in Sources */,
 				AB1894D527F7EC3600CD7049 /* 349. 两个数组的交集.swift in Sources */,
 				AB1894D027F5B70100CD7049 /* 142. 环形链表 II.swift in Sources */,
