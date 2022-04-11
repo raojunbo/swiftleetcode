@@ -9,48 +9,54 @@
 import Foundation
 // 单调队列，由大到小
 class SigleUpQueue {
-    var queue: [Int] = []
-    var maxSize: Int = 0
-    func push(x: Int) {
-        if queue.isEmpty {
-            queue.append(x)
+    // Swift的使用数组会超时，其他语言没有超时。
+    var data: [Int] = []
+    // 每次入队时，要移除它前面的小于最新的值。
+    func push(_ x: Int) {
+        if data.isEmpty {
+            data.append(x)
         } else {
-            if let last = queue.last, last < x {
-                queue.removeAll()
+            while !data.isEmpty, x > data.last! {
+                data.removeLast()
             }
-            queue.append(x)
-        }
-        // 查看是否超出区域
-        if queue.count > maxSize {
-            while queue.count > maxSize {
-                queue.removeFirst()
-            }
+            data.append(x)
         }
     }
-    func pop() -> Int {
-        return queue.removeFirst()
+    // 每次要弹出的值是否与队列顶部的值相等,相等就弹出。也就是他要失效了
+    func pop(_ x: Int) {
+        if !data.isEmpty && x == data.first {
+            data.removeFirst()
+        }
     }
-    func top() -> Int {
-        return queue.first!
+    func front() -> Int {
+        return data.first!
     }
 }
 class Solution239 {
     func maxSlidingWindow(_ nums: [Int], _ k: Int) -> [Int] {
         let queue = SigleUpQueue()
-        queue.maxSize = k
+      
         var result: [Int] = []
-        for (index, item) in nums.enumerated() {
-            queue.push(x: item)
-            if index >= k - 1 {
-                result.append(queue.top())
-            }
+        for index in 0..<min(k, nums.count) {
+            queue.push(nums[index])
+        }
+        result.append(queue.front())
+        
+        if k > nums.count {
+            return result
+        }
+        for index in k..<nums.count {
+            let item = nums[index]
+            queue.push(item)
+            queue.pop(nums[index - k])
+            result.append(queue.front())
         }
         return result
     }
-
+    
     class func test() {
         let solution = Solution239()
-        let nums = [1,3,1,2,0,5]
+        let nums = [1,3,-1,-3,5,3,6,7]
         let k = 3
         let result = solution.maxSlidingWindow(nums, k)
         print(result)

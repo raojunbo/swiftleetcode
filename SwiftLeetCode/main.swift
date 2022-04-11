@@ -9,4 +9,4 @@ import Foundation
 
 print("Hello, World!")
 
-Solution239.test()
+Solution654.test()
