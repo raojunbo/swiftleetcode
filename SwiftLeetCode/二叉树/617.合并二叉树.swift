@@ -5,24 +5,27 @@
 //  Created by junbo.rao on 2022/4/11.
 //
 // 合并二叉树
-// 只需要合并当前节点就可以。
 import Foundation
 class Solution617 {
     func mergeTrees(_ root1: TreeNode?, _ root2: TreeNode?) -> TreeNode? {
-        if root1?.left != nil && root2?.left != nil {
-            root1?.val = root1!.val + root2!.val
+        if root1 == nil {
+            return root2
         }
-        
-//        if root1 != nil && root2 != nil {
-//            root1?.val = root1!.val + root2!.val
-//        }
-//        if root1 == nil && root2 != nil {
-//
-//        }
-        return nil
+        if root2 == nil {
+            return root1
+        }
+        root1?.val = root1!.val + root2!.val
+        root1?.left = mergeTrees(root1?.left, root2?.left)
+        root1?.right = mergeTrees(root1?.right, root2?.right)
+        return root1
     }
+    
     class func test(){
-        
+        let node1 = createOne()
+        let node2 = createTwo()
+        let solution = Solution617()
+        let result = solution.mergeTrees(node1, node2)
+        print(result)
     }
     class func createOne() -> TreeNode? {
         let node1 = TreeNode(1)
