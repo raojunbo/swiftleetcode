@@ -10,31 +10,31 @@
 import Foundation
 class Solution450 {
     func deleteNode(_ root: TreeNode?, _ key: Int) -> TreeNode? {
-        guard let root = root else {
+        var root = root
+        if root == nil {
             return root
         }
-        if root.val == key {
-            let rootleft = root.left
-            let rootright = root.right
+        if root?.val == key {
             
-            // 寻找右子树的最小节点，不断找最左边
-            let vNode = TreeNode(-1)
-            vNode.left = rootright
-            var parent: TreeNode? = vNode
-            var cursor: TreeNode? = vNode.left
-            while cursor?.left != nil {
-                parent = cursor
-                cursor = cursor?.left
+            if root?.left == nil {
+                // 要删除的左子节点为空
+                return root?.right
+            } else if root?.right == nil {
+                // 要删除的右子节点为空
+                return root?.left
+            } else {
+                // 找右子树上最左的节点
+                var cur: TreeNode? = root?.right
+                while cur?.left != nil {
+                    cur = cur?.left
+                }
+                cur?.left = root?.left // 将root的左子树放在右子树的孩子节点上
+                root = root?.right // 返回root的右子树
             }
-           
-            cursor?.left = rootleft
-            cursor?.right = vNode.left
-            parent?.left = nil
-            return cursor
-        }else if root.val < key {
-            root.right = deleteNode(root.right, key)
-        } else if root.val > key {
-            root.left = deleteNode(root.left, key)
+        }else if root!.val < key {
+            root?.right = deleteNode(root?.right, key)
+        } else if root!.val > key {
+            root?.left = deleteNode(root?.left, key)
         }
         return root
     }
