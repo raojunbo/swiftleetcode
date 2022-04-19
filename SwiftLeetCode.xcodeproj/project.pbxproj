@@ -77,7 +77,18 @@
 		AB69CB2028081273003D52C9 /* 93.复原IP地址.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB69CB1F28081273003D52C9 /* 93.复原IP地址.swift */; };
 		AB69CB222808224A003D52C9 /* 78.子集.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB69CB212808224A003D52C9 /* 78.子集.swift */; };
 		AB69CB2428082DCA003D52C9 /* 90.子集II.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB69CB2328082DCA003D52C9 /* 90.子集II.swift */; };
-		AB69CB26280834ED003D52C9 /* 491.递增子序列.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB69CB25280834ED003D52C9 /* 491.递增子序列.swift */; };
+		AB69CB26280834ED003D52C9 /* 491.递增子序列(tag 容易错).swift in Sources */ = {isa = PBXBuildFile; fileRef = AB69CB25280834ED003D52C9 /* 491.递增子序列(tag 容易错).swift */; };
+		AB91C04B280DB46800D01FE0 /* 46. 全排列.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB91C04A280DB46800D01FE0 /* 46. 全排列.swift */; };
+		AB91C04D280DC4F200D01FE0 /* 47.全排列 II(tag 有点绕).swift in Sources */ = {isa = PBXBuildFile; fileRef = AB91C04C280DC4F200D01FE0 /* 47.全排列 II(tag 有点绕).swift */; };
+		AB91C04F280E4F9400D01FE0 /* 第51题. N皇后(tag 有点难).swift in Sources */ = {isa = PBXBuildFile; fileRef = AB91C04E280E4F9400D01FE0 /* 第51题. N皇后(tag 有点难).swift */; };
+		AB91C051280E931F00D01FE0 /* 37. 解数独(tag 未搞定).swift in Sources */ = {isa = PBXBuildFile; fileRef = AB91C050280E931F00D01FE0 /* 37. 解数独(tag 未搞定).swift */; };
+		AB91C056280EAD3D00D01FE0 /* 509. 斐波那契数.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB91C055280EAD3D00D01FE0 /* 509. 斐波那契数.swift */; };
+		AB91C058280EB06100D01FE0 /* 70. 爬楼梯.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB91C057280EB06100D01FE0 /* 70. 爬楼梯.swift */; };
+		AB91C05A280EB81D00D01FE0 /* 746. 使用最小花费爬楼梯.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB91C059280EB81D00D01FE0 /* 746. 使用最小花费爬楼梯.swift */; };
+		AB91C05C280EBF5900D01FE0 /* 62.不同路径.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB91C05B280EBF5900D01FE0 /* 62.不同路径.swift */; };
+		AB91C05E280EC3A100D01FE0 /* 63. 不同路径 II.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB91C05D280EC3A100D01FE0 /* 63. 不同路径 II.swift */; };
+		AB91C060280ED49700D01FE0 /* 343. 整数拆分(tag 想了比较久).swift in Sources */ = {isa = PBXBuildFile; fileRef = AB91C05F280ED49700D01FE0 /* 343. 整数拆分(tag 想了比较久).swift */; };
+		AB91C062280EECD500D01FE0 /* 96.不同的二叉搜索树.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB91C061280EECD500D01FE0 /* 96.不同的二叉搜索树.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -164,7 +175,18 @@
 		AB69CB1F28081273003D52C9 /* 93.复原IP地址.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "93.复原IP地址.swift"; sourceTree = "<group>"; };
 		AB69CB212808224A003D52C9 /* 78.子集.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "78.子集.swift"; sourceTree = "<group>"; };
 		AB69CB2328082DCA003D52C9 /* 90.子集II.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "90.子集II.swift"; sourceTree = "<group>"; };
-		AB69CB25280834ED003D52C9 /* 491.递增子序列.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "491.递增子序列.swift"; sourceTree = "<group>"; };
+		AB69CB25280834ED003D52C9 /* 491.递增子序列(tag 容易错).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "491.递增子序列(tag 容易错).swift"; sourceTree = "<group>"; };
+		AB91C04A280DB46800D01FE0 /* 46. 全排列.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "46. 全排列.swift"; sourceTree = "<group>"; };
+		AB91C04C280DC4F200D01FE0 /* 47.全排列 II(tag 有点绕).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "47.全排列 II(tag 有点绕).swift"; sourceTree = "<group>"; };
+		AB91C04E280E4F9400D01FE0 /* 第51题. N皇后(tag 有点难).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "第51题. N皇后(tag 有点难).swift"; sourceTree = "<group>"; };
+		AB91C050280E931F00D01FE0 /* 37. 解数独(tag 未搞定).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "37. 解数独(tag 未搞定).swift"; sourceTree = "<group>"; };
+		AB91C055280EAD3D00D01FE0 /* 509. 斐波那契数.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "509. 斐波那契数.swift"; sourceTree = "<group>"; };
+		AB91C057280EB06100D01FE0 /* 70. 爬楼梯.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "70. 爬楼梯.swift"; sourceTree = "<group>"; };
+		AB91C059280EB81D00D01FE0 /* 746. 使用最小花费爬楼梯.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "746. 使用最小花费爬楼梯.swift"; sourceTree = "<group>"; };
+		AB91C05B280EBF5900D01FE0 /* 62.不同路径.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "62.不同路径.swift"; sourceTree = "<group>"; };
+		AB91C05D280EC3A100D01FE0 /* 63. 不同路径 II.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "63. 不同路径 II.swift"; sourceTree = "<group>"; };
+		AB91C05F280ED49700D01FE0 /* 343. 整数拆分(tag 想了比较久).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "343. 整数拆分(tag 想了比较久).swift"; sourceTree = "<group>"; };
+		AB91C061280EECD500D01FE0 /* 96.不同的二叉搜索树.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "96.不同的二叉搜索树.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -198,6 +220,7 @@
 			isa = PBXGroup;
 			children = (
 				AB1894A627F3EB1200CD7049 /* main.swift */,
+				AB91C054280EAD2700D01FE0 /* 动态规划 */,
 				AB69CB12280716DA003D52C9 /* 回溯算法 */,
 				AB69CACC28001F77003D52C9 /* 二叉树 */,
 				AB1894ED27F8562900CD7049 /* 栈与队列 */,
@@ -362,10 +385,28 @@
 				AB69CB1D280808B4003D52C9 /* 131.分割回文串.swift */,
 				AB69CB1F28081273003D52C9 /* 93.复原IP地址.swift */,
 				AB69CB212808224A003D52C9 /* 78.子集.swift */,
-				AB69CB25280834ED003D52C9 /* 491.递增子序列.swift */,
 				AB69CB2328082DCA003D52C9 /* 90.子集II.swift */,
+				AB69CB25280834ED003D52C9 /* 491.递增子序列(tag 容易错).swift */,
+				AB91C04A280DB46800D01FE0 /* 46. 全排列.swift */,
+				AB91C04C280DC4F200D01FE0 /* 47.全排列 II(tag 有点绕).swift */,
+				AB91C04E280E4F9400D01FE0 /* 第51题. N皇后(tag 有点难).swift */,
+				AB91C050280E931F00D01FE0 /* 37. 解数独(tag 未搞定).swift */,
 			);
 			path = "回溯算法";
+			sourceTree = "<group>";
+		};
+		AB91C054280EAD2700D01FE0 /* 动态规划 */ = {
+			isa = PBXGroup;
+			children = (
+				AB91C055280EAD3D00D01FE0 /* 509. 斐波那契数.swift */,
+				AB91C057280EB06100D01FE0 /* 70. 爬楼梯.swift */,
+				AB91C059280EB81D00D01FE0 /* 746. 使用最小花费爬楼梯.swift */,
+				AB91C05B280EBF5900D01FE0 /* 62.不同路径.swift */,
+				AB91C05D280EC3A100D01FE0 /* 63. 不同路径 II.swift */,
+				AB91C05F280ED49700D01FE0 /* 343. 整数拆分(tag 想了比较久).swift */,
+				AB91C061280EECD500D01FE0 /* 96.不同的二叉搜索树.swift */,
+			);
+			path = "动态规划";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -429,6 +470,8 @@
 				AB1894EF27F8564100CD7049 /* 232.用栈实现队列.swift in Sources */,
 				AB69CB182807C171003D52C9 /* 17.电话号码的字母组合.swift in Sources */,
 				AB69CACB2800102F003D52C9 /* 347. 前 K 个高频元素(tag 有点难).swift in Sources */,
+				AB91C060280ED49700D01FE0 /* 343. 整数拆分(tag 想了比较久).swift in Sources */,
+				AB91C04F280E4F9400D01FE0 /* 第51题. N皇后(tag 有点难).swift in Sources */,
 				AB1894E327F8331800CD7049 /* Offer58-II.左旋转字符串.swift in Sources */,
 				AB69CADA2804048E003D52C9 /* 257. 二叉树的所有路径.swift in Sources */,
 				AB1894DA27F7FCA100CD7049 /* 344.反转字符串.swift in Sources */,
@@ -440,9 +483,11 @@
 				AB69CB112806F347003D52C9 /* 538.把二叉搜索树转换为累加树.swift in Sources */,
 				AB1894CE27F5AC0900CD7049 /* 160. 相交链表.swift in Sources */,
 				AB69CAD02800258F003D52C9 /* 101. 对称二叉树.swift in Sources */,
-				AB69CB26280834ED003D52C9 /* 491.递增子序列.swift in Sources */,
+				AB69CB26280834ED003D52C9 /* 491.递增子序列(tag 容易错).swift in Sources */,
 				AB1894C627F53EA900CD7049 /* 707. 设计链表.swift in Sources */,
+				AB91C05E280EC3A100D01FE0 /* 63. 不同路径 II.swift in Sources */,
 				AB1894E727F851D700CD7049 /* 459.重复的子字符串(tag KMP).swift in Sources */,
+				AB91C04B280DB46800D01FE0 /* 46. 全排列.swift in Sources */,
 				AB69CAF228052760003D52C9 /* 236. 二叉树的最近公共祖先(tag 容易错).swift in Sources */,
 				AB69CB1628079CAB003D52C9 /* 216. 组合总和 III.swift in Sources */,
 				AB59324127FD82010009FFC6 /* 239. 滑动窗口最大值(tag 有点难).swift in Sources */,
@@ -455,12 +500,15 @@
 				AB69CAE4280423D4003D52C9 /* 106.从中序与后序遍历序列构造二叉树.swift in Sources */,
 				AB1894DE27F805E900CD7049 /* Offer 05. 替换空格.swift in Sources */,
 				AB1894B127F4090700CD7049 /* 27. 移除元素.swift in Sources */,
+				AB91C051280E931F00D01FE0 /* 37. 解数独(tag 未搞定).swift in Sources */,
 				AB1894EA27F8541300CD7049 /* 双指针法.swift in Sources */,
 				AB69CB2028081273003D52C9 /* 93.复原IP地址.swift in Sources */,
+				AB91C062280EECD500D01FE0 /* 96.不同的二叉搜索树.swift in Sources */,
 				AB1894C827F587CF00CD7049 /* 206.反转链表.swift in Sources */,
 				AB1894B527F4385600CD7049 /* 209. 长度最小的子数组.swift in Sources */,
 				AB69CAE02804193D003D52C9 /* 112. 路径总和.swift in Sources */,
 				AB1894D327F7056500CD7049 /* 242.有效的字母异位词.swift in Sources */,
+				AB91C05C280EBF5900D01FE0 /* 62.不同路径.swift in Sources */,
 				AB69CAD228002DBA003D52C9 /* 04.二叉树的最大深度.swift in Sources */,
 				AB59323A27FD735F0009FFC6 /* 20. 有效的括号.swift in Sources */,
 				AB59323D27FD7A000009FFC6 /* 1047. 删除字符串中的所有相邻重复项.swift in Sources */,
@@ -471,14 +519,18 @@
 				AB1894EC27F854C400CD7049 /* 第18题. 四数之和.swift in Sources */,
 				AB1894CA27F58AF000CD7049 /* 24. 两两交换链表中的节点.swift in Sources */,
 				AB1894DC27F7FE5D00CD7049 /* 541. 反转字符串II.swift in Sources */,
+				AB91C04D280DC4F200D01FE0 /* 47.全排列 II(tag 有点绕).swift in Sources */,
 				AB69CAD428003134003D52C9 /* 111.二叉树的最小深度(tag 容易错).swift in Sources */,
 				AB69CAF028052028003D52C9 /* 501.二叉搜索树中的众数.swift in Sources */,
 				AB59323F27FD7D490009FFC6 /* 150. 逆波兰表达式求值.swift in Sources */,
+				AB91C058280EB06100D01FE0 /* 70. 爬楼梯.swift in Sources */,
+				AB91C05A280EB81D00D01FE0 /* 746. 使用最小花费爬楼梯.swift in Sources */,
 				AB1894C127F532C400CD7049 /* 数组总结.swift in Sources */,
 				AB69CAE628043367003D52C9 /* 654.最大二叉树.swift in Sources */,
 				AB1894D527F7EC3600CD7049 /* 349. 两个数组的交集.swift in Sources */,
 				AB69CAE82804384F003D52C9 /* 617.合并二叉树.swift in Sources */,
 				AB1894D027F5B70100CD7049 /* 142. 环形链表 II.swift in Sources */,
+				AB91C056280EAD3D00D01FE0 /* 509. 斐波那契数.swift in Sources */,
 				AB69CADE280412F3003D52C9 /* 513.找树左下角的值.swift in Sources */,
 				AB1894CC27F59B0C00CD7049 /* 19.删除链表的倒数第N个节点.swift in Sources */,
 				AB1894D727F7F32A00CD7049 /* 202. 快乐数.swift in Sources */,
